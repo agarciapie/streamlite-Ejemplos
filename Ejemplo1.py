@@ -5,6 +5,7 @@ from PIL import Image
 
 
 #config
+#comentario
 st.set_page_config(page_title="Ejemplo1", page_icon="🤖", layout="wide")
 
 with st.container():
