@@ -12,4 +12,4 @@ with st.container():
     st.write(
         "Somos unos apasionados del deporte del Pitch & Putt."
     )
-    st.write("[Saber más >](http://www.pipcat.com/seniorsponent/index.php?mod=pip&op=LlistarPag&fid=1")
+    st.write("[Saber más >](http://www.pipcat.com/seniorsponent/index.php?mod=pip&op=LlistarPag&fid=1)")
