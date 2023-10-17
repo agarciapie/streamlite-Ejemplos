@@ -15,8 +15,8 @@ with st.container():
     )
     st.write("[Saber más >](http://www.pipcat.com/seniorsponent/index.php?mod=pip&op=LlistarPag&fid=1)")
 
-    st.imagen(foto_equipo)
-    
+    st.image(foto_equipo)
+
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
