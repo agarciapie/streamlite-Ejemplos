@@ -9,9 +9,9 @@ st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
 
 
 with st.container():
-    st.subheader("Equipo Pitch&Putt Seniors Canal Olimpic :wave:")
+    st.title("Equipo Pitch&Putt Seniors OLimpics :wave:")
     st.image(logo_co)
-    st.title("Jugamos la liga SEMAR en 3ª división")
+    st.subheader("Jugamos la liga SEMAR en 3ª división")
     st.write(
         "Somos unos apasionados del deporte del Pitch & Putt."
     )
