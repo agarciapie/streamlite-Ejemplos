@@ -12,7 +12,7 @@ with st.container():
     st.title("Equipo Pitch&Putt Seniors OLimpics :wave:")
     st.image(logo_co)
     st.subheader("Participamos en la liga SEMAR de 3ª división")
-    st.subheader("Jugamos en el campo de P&P del Canal Olìmpico. Castelldefels")
+    st.subheader("Jugamos en el campo de P&P del Canal Olímpico. Castelldefels")
     st.write(
         "Somos unos apasionados del deporte del Pitch & Putt."
     )
