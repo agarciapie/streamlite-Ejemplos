@@ -19,9 +19,4 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("Calendario")
-        st.write(
-            """
-            Aqui va el calendario
-            
-            """
-        )
+        st.write("[Calendario 2023-24 >](http://www.pipcat.com/seniorsponent/uplds/220/20231003_Calendari_Intercamps_Oest.pdf)")
