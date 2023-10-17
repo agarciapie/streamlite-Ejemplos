@@ -13,3 +13,15 @@ with st.container():
         "Somos unos apasionados del deporte del Pitch & Putt."
     )
     st.write("[Saber más >](http://www.pipcat.com/seniorsponent/index.php?mod=pip&op=LlistarPag&fid=1)")
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Calendario")
+        st.write(
+            """
+            Aqui va el calendario
+            
+            """
+        )
