@@ -20,3 +20,7 @@ with st.container():
     with left_column:
         st.header("Calendario")
         st.write("[Calendario 2023-24 >](http://www.pipcat.com/seniorsponent/uplds/220/20231003_Calendari_Intercamps_Oest.pdf)")
+    with right_column:
+        st.header("Resultados")
+        st.write("[Ver resultados >](http://www.pitchputt.cat/noticies/noticia.php?id=46745)")
+        
