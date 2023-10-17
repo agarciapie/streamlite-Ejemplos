@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 foto_equipo = Image.open("Imagenes/Equip_P&P_2023-24.jpg")
-logo_Co = Image("Imagenes/CanalOlimpic")
+logo_Co = Image("Imagenes/CanalOlimpic.jpg")
 
 #config
 st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
