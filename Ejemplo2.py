@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 foto_equipo = Image.open("Imagenes/Equip_P&P_2023-24.jpg")
-#logo_Co = Image.open("Imagenes/CanalOlimpic.jpg")
+logo_co = Image.open("Imagenes/CanalOlimpic.jpg")
 
 #config
 st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
@@ -10,7 +10,7 @@ st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
 
 with st.container():
     st.subheader("Equipo Pitch&Putt Seniors Canal Olimpic :wave:")
-    #st.image(logo_Co)
+    #st.image(logo_co)
     st.title("Jugamos la liga SEMAR en 3ª división")
     st.write(
         "Somos unos apasionados del deporte del Pitch & Putt."
