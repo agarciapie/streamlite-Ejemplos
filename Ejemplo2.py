@@ -17,9 +17,7 @@ with st.container():
     st.header("Participamos en la liga SEMAR de 3ª división")
     st.header("Jugamos en el campo de P&P del Canal Olímpico. Castelldefels")
     st.subheader("Somos unos apasionados del deporte del Pitch & Putt.")
-    st.write(
-        "Somos unos apasionados del deporte del Pitch & Putt."
-    )
+
     st.write("[Saber más >](http://www.pipcat.com/seniorsponent/index.php?mod=pip&op=LlistarPag&fid=1)")
 
     st.image(foto_equipo)
