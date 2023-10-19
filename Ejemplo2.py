@@ -9,8 +9,11 @@ st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
 
 
 with st.container():
-    st.title("Equipo Pitch&Putt Seniors OLimpics :wave:")
-    st.image(logo_co)
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.title("Equipo Pitch&Putt Seniors OLimpics")
+    with right_column:
+        st.image(logo_co)
     st.subheader("Participamos en la liga SEMAR de 3ª división")
     st.subheader("Jugamos en el campo de P&P del Canal Olímpico. Castelldefels")
     st.write(
