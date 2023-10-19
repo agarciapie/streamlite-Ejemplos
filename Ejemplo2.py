@@ -9,7 +9,7 @@ st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
 
 
 with st.container():
-    left_column, right_column = st.columns(2)
+    left_column, right_column = st.columns(0.7, 0.3)
     with left_column:
         st.title("Equipo Pitch&Putt Senior Olimpics")
     with right_column:
