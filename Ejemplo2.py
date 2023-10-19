@@ -11,7 +11,7 @@ st.set_page_config(page_title="Ejemplo2", page_icon="🤖", layout="wide")
 with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
-        st.title("Equipo Pitch&Putt Seniors OLimpics")
+        st.title("Equipo Pitch&Putt Seniors Olimpics")
     with right_column:
         st.image(logo_co)
     st.subheader("Participamos en la liga SEMAR de 3ª división")
