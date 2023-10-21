@@ -9,9 +9,10 @@ st.set_page_config(
     page_title="Ejemplo3", 
     page_icon="⛳", 
     layout="centered"
-    menu_items(
-        "About": "Es una pagimna de prueba"
-    )
+    menu_items{
+         "About": "Es una pagimna de prueba"
+    }
+       
     )
 
 with st.container():
