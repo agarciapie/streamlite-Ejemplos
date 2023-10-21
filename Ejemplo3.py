@@ -10,8 +10,8 @@ st.set_page_config(
     page_icon="⛳", 
     layout="centered"
     menu_items= {
-        'Get help':
-        'Report a bug':
+        'Get help': ""
+        'Report a bug': ""
         'About': "Es una pagimna de prueba"
     }
        
