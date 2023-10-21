@@ -23,3 +23,5 @@ respuesta = st.button("Inicio")
 st.write(respuesta)
 if respuesta:
     st.write("Toamndo datos")
+else:
+    st.write("STOP")
