@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="⛳", 
     layout="centered"
     menu_items= {
-         "About": "Es una pagimna de prueba"
+         'About': "Es una pagimna de prueba"
     }
        
     )
