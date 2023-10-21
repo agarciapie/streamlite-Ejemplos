@@ -19,3 +19,7 @@ with st.container():
         st.image(logo_co)
     st.header("Participamos en la liga SEMAR de 3ª división")
 
+respuesta = st.button("Inicio")
+st.write(respuesta)
+if respuesta:
+    st.write("Toamndo datos")
