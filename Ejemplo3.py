@@ -7,8 +7,12 @@ logo_co = Image.open("Imagenes/logo_equip.JPG")
 #config
 st.set_page_config(
     page_title="Ejemplo3", 
-    page_icon="💀", 
-    layout="wide")
+    page_icon="⛳", 
+    layout="centered"
+    menu_items(
+        "About": "Es una pagimna de prueba"
+    )
+    )
 
 with st.container():
     left_column, right_column = st.columns([0.7, 0.3])
