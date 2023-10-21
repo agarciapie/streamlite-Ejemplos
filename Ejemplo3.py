@@ -22,6 +22,6 @@ with st.container():
 respuesta = st.button("Inicio")
 st.write(respuesta)
 if respuesta:
-    st.write("Toamndo datos")
+    st.write("Tomando datos")
 else:
     st.write("STOP")
