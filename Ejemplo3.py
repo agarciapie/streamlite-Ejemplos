@@ -21,15 +21,15 @@ with st.container():
 
 
 
-if 'boton_imagen' not in st.session_state:
-    st.session_state.boton_imagen = False
+if 'button' not in st.session_state:
+    st.session_state.button = False
 
-def click_boton_imagen():
-    st.session_state.boton_imagen = not st.session_state.boton_imagen
+def click_button():
+    st.session_state.button = not st.session_state.button
 
-st.boton_imagen('Imagen', on_click=click_boton_imagen, type="primary")
+st.button('Imagen', on_click=click_button, type="primary")
 
-if st.session_state.boton_imagen:
+if st.session_state.button:
     # The message and nested widget will remain on the page
     st.image(logo_co)
     
