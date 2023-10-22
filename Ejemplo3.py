@@ -27,7 +27,7 @@ if 'button' not in st.session_state:
 def click_button():
     st.session_state.button = not st.session_state.button
 
-st.button('Click me', on_click=click_button)
+st.button('Click me', on_click=click_button, type="primary")
 
 if st.session_state.button:
     # The message and nested widget will remain on the page
