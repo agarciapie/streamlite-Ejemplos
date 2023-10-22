@@ -32,6 +32,7 @@ st.button('Click me', on_click=click_button, type="primary")
 if st.session_state.button:
     # The message and nested widget will remain on the page
     st.write('Button is on!')
+    st.image(logo_co)
     
 else:
     st.write('Button is off!')
