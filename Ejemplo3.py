@@ -31,7 +31,7 @@ st.button('Click me', on_click=click_button)
 
 if st.session_state.button:
     # The message and nested widget will remain on the page
-    #st.write('Button is on!')
-    st.slider('Select a value')
+    st.write('Button is on!')
+    #st.slider('Select a value')
 else:
     st.write('Button is off!')
