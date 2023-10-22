@@ -21,7 +21,7 @@ with st.container():
 
 
 
-if 'button' not in st.session_state:
+if 'boton_imagen' not in st.session_state:
     st.session_state.button = False
 
 def click_button():
