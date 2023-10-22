@@ -35,5 +35,5 @@ if st.session_state.button:
     st.image(logo_co)
     
 else:
-    st.write('Button is off!')
+    st.write('')
     
