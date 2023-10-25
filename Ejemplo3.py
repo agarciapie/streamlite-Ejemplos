@@ -1,6 +1,9 @@
 import streamlit as st
 from PIL import Image
+from st_row_buttons import st_row_buttons
 
+selection = st_row_buttons (('option 1', 'option 2', 'option 3'))
+                             
 foto_equipo = Image.open("Imagenes/Equip_P&P_2023-24.jpg")
 logo_co = Image.open("Imagenes/logo_equip.JPG")
 
@@ -37,4 +40,4 @@ if st.session_state.button:
     
 else:
     st.write('')
-    
+
