@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import st_row_buttons
+#import st_row_buttons
 
 selection = st_row_buttons (('option 1', 'option 2', 'option 3'))
                              
@@ -41,3 +41,5 @@ if st.session_state.button:
 else:
     st.write('')
 
+option = st_btn_select(('option1', 'option2', 'option3', 'option4'), index=2)
+st.write(f'Selected option: {option}')
