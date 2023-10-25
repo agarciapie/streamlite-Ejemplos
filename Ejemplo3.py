@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from st_row_buttons import st_row_buttons
+import st_row_buttons
 
 selection = st_row_buttons (('option 1', 'option 2', 'option 3'))
                              
