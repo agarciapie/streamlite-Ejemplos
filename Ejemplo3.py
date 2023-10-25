@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-#import st_row_buttons
+from st_row_buttons import st_row_buttons
                              
 foto_equipo = Image.open("Imagenes/Equip_P&P_2023-24.jpg")
 logo_co = Image.open("Imagenes/logo_equip.JPG")
