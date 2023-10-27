@@ -27,7 +27,7 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("Calendario")
-        st.write("[Calendario 2023-24 >](http://www.pipcat.com/seniorsponent/uplds/220/20231003_Calendari_Intercamps_Oest.pdf)")
+        st.write("[Calendario 2023-24 >](http://www.pipcat.com/seniorsponent/uplds/220/20231022_Calendari_Intercamps_Oest.pdf)")
     with right_column:
         st.header("Resultados")
         st.write("[Ver resultados >](http://pitch.cat/noticies/noticia.php?id=46944)")
