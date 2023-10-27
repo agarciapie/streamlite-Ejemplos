@@ -43,3 +43,5 @@ else:
 
 option = st_btn_select(('option1', 'option2', 'option3', 'option4'), index=2)
 st.write(f'Selected option: {option}')
+
+selection = st_row_buttons(('option 1', 'option 2', 'option 3'))
