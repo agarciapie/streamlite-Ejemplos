@@ -30,4 +30,5 @@ with st.container():
         st.write("[Calendario 2023-24 >](http://www.pipcat.com/seniorsponent/uplds/220/20231022_Calendari_Intercamps_Oest.pdf)")
     with right_column:
         st.header("Resultados")
-        st.write("[Ver resultados >](http://pitch.cat/noticies/noticia.php?id=46944)")
+        st.write("[Ver resultados SP >](http://pitch.cat/noticies/noticia.php?id=46944)")
+        st.write("[Ver resultados MP >](http://www.pitchputt.cat/noticies/noticia.php?id=46838)")
