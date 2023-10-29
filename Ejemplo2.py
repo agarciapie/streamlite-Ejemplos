@@ -7,6 +7,7 @@ logo_co = Image.open("Imagenes/logo_equip.JPG")
 #config
 st.set_page_config(page_title="Senior Olimpics P&P", page_icon="⛳", layout="wide")
 
+st.image(foto_equipo)
 
 with st.container():
     left_column, right_column = st.columns([0.7, 0.3])
@@ -17,10 +18,8 @@ with st.container():
     st.header("Competim a la lliga SEMAR de 3ª divisió")
     st.header("Juguem al camp de P&P del Canal Olímpic. Castelldefels")
     st.subheader("Som uns apassionats del esport del Pitch & Putt")
-
     st.write("[Saber mès >](http://www.pipcat.com/seniorsponent/index.php?mod=pip&op=LlistarPag&fid=1)")
 
-    st.image(foto_equipo)
 
 with st.container():
     st.write("---")
