@@ -1,6 +1,16 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+# Ocultar leyenda Streamlit
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # 1. as sidebar menu
 with st.sidebar:
     selected = option_menu("Main Menu", ["Home", 'Settings'], 
@@ -47,13 +57,3 @@ selected5 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'],
                         icons=['house', 'cloud-upload', "list-task", 'gear'],
                         on_change=on_change, key='menu_5', orientation="horizontal")
 selected5
-
-# Ocultar leyenda Streamlit
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
