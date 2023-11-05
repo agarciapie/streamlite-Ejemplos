@@ -49,11 +49,18 @@ st.button(f"Move to Next {st.session_state.get('menu_option',1)}", key='switch_b
 selected4
 
 # 5. Add on_change callback
-def on_change(key):
+def boton(key):
     selection = st.session_state[key]
     st.write(f"Selection changed to {selection}")
     
 selected5 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'],
                         icons=['house', 'cloud-upload', "list-task", 'gear'],
-                        on_change=on_change, key='menu_5', orientation="horizontal")
+                        on_change=boton, key='posicion', orientation="horizontal",
+                        styles={
+                            "container": {"padding": "0!important", "background-color": "#fafafa"},
+                            "icon": {"color": "orange", "font-size": "25px"}, 
+                            "nav-link": {"font-size": "10px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+                            "nav-link-selected": {"background-color": "blue"},
+                        }
+                    )
 selected5
