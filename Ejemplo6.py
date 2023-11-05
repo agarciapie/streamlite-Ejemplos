@@ -18,3 +18,4 @@ with st.sidebar:
         menu_icon="cast", 
         default_index=1)
     selected
+    
