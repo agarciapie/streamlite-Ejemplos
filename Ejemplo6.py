@@ -14,5 +14,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 # 1. as sidebar menu
 with st.sidebar:
     selected = option_menu("Main Menu", ["Home", 'Settings'], 
-        icons=['house', 'gear'], menu_icon="cast", default_index=1)
+        icons=['house', 'gear'], 
+        menu_icon="cast", 
+        default_index=1)
     selected
