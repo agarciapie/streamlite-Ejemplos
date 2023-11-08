@@ -11,10 +11,14 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
+def menu_change(key):
+    st.write("El menu ha cambiado")
+
 # 1. as sidebar menu
 with st.sidebar:
     selected = option_menu("Menu principal", ["Home", 'Calendario', 'Resultados'], 
         icons=['house', 'book', 'gift'],  
         menu_icon="cast", 
-        default_index=1)
-    selected
+        default_index=1,
+        on_change=menu_change)
+    
