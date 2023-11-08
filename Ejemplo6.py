@@ -20,5 +20,6 @@ with st.sidebar:
         icons=['house', 'book', 'gift'],  
         menu_icon="cast", 
         default_index=1,
-        on_change=menu_change)
+        on_change=menu_change,
+        key="0")
     
