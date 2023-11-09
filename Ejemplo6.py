@@ -12,7 +12,15 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 def menu_change(key):
-    st.write("El menu ha cambiado")
+    selection = st.session_state[key]
+    if selection == "Home":
+        st.write("El menu ha cambiado a {selection}")
+        
+    if selection == "Calendario":
+        st.write("El menu ha cambiado a {selection}")
+        
+    if selection == "Resultados":
+        st.write("El menu ha cambiado a {selection}")
 
 # 1. as sidebar menu
 with st.sidebar:
