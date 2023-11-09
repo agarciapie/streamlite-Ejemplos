@@ -30,7 +30,10 @@ st.image(foto_equipo)
 def menu_change(key):
     selection = st.session_state[key]
     if selection == "Home":
-        st.write(f"El menu ha cambiado a {selection}")
+        #st.write(f"El menu ha cambiado a {selection}")
+        st.header("Competim a la lliga SEMAR de 3ª divisió")
+        st.header("Juguem al camp de P&P del Canal Olímpic. Castelldefels")
+        st.subheader("Som uns apassionats del esport del Pitch & Putt")
         
     if selection == "Calendario":
         #st.write(f"El menu ha cambiado a {selection}")
