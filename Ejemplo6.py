@@ -17,10 +17,14 @@ def menu_change(key):
         st.write(f"El menu ha cambiado a {selection}")
         
     if selection == "Calendario":
-        st.write(f"El menu ha cambiado a {selection}")
+        #st.write(f"El menu ha cambiado a {selection}")
+        st.header("Calendari")
+        st.write("[Calendari 2023-24 >](http://www.pipcat.com/seniorsponent/uplds/220/20231022_Calendari_Intercamps_Oest.pdf)")
         
     if selection == "Resultados":
-        st.write(f"El menu ha cambiado a {selection}")
+        #st.write(f"El menu ha cambiado a {selection}")
+        st.write("[Veure resultats SP >](http://pitch.cat/noticies/noticia.php?id=46944)")
+        st.write("[Veure resultats MP >](http://www.pitchputt.cat/noticies/noticia.php?id=46838)")
 
 # 1. as sidebar menu
 with st.sidebar:
