@@ -18,14 +18,14 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.image(foto_equipo)
-
 with st.container():
     left_column, right_column = st.columns([0.7, 0.3])
     with left_column:
         st.title("Equip de Pitch&Putt Senior Olimpics")
     with right_column:
         st.image(logo_co)
+
+st.image(foto_equipo)
 
 def menu_change(key):
     selection = st.session_state[key]
