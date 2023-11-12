@@ -18,4 +18,4 @@ with st.container():
 
 st.image(foto_equipo)
 
-st.sidebar
+st.sidebar.("Menu principal")
