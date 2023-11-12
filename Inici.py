@@ -8,15 +8,6 @@ logo_co = Image.open("Imagenes/logo_equip.JPG")
 #config
 st.set_page_config(page_title="Senior Olimpics P&P", page_icon="⛳")
 
-# Ocultar leyenda Streamlit
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
 
 with st.container():
     left_column, right_column = st.columns([0.7, 0.3])
