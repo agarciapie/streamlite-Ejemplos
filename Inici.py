@@ -18,4 +18,4 @@ with st.container():
 
 st.image(foto_equipo)
 
-st.sidebar.success("Escull una opció")
+st.sidebar.write ("Escull una opció")
